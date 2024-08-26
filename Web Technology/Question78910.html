@@ -1,0 +1,35 @@
+<!--
+7. Create another .html file that contains a heading and a couple of paragraphs. 
+    You could name this new file another_page.html, and you should place it into the same folder where your first .html is. 
+    After you have created the new .html page, add a link to the first page so that the browser will load another_page.html when you click the text Go to the other page. in the first page. 
+    You need to use the <a> and </a> tags in this exercise. Inside the tag <a> you need to use a href attribute that specifies which page will be loaded when the link is clicked.
+8. HTML tags like <a> can have certain attributes. The href attribute is mandatory in the <a> tag. 
+    Additionally it is possible to use the title attribute which specifies a text that emerges when the mouse cursor is moved above a link. 
+    This kind of text is called a tool tip. Modify the link that you created in the previous exercise so that a tool tip says "This leads you to another page." 
+    when the mouse cursor is over the link.
+9. It is possible to use a picture (image) as a link. Modify your page so that the picture that is on your page will also serve as a link that leads to another page.
+10. Upload your two .html files to a server and test that they work as real internet pages.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Another Page</title>
+</head>
+<body>
+    <h1>This is another HTML file</h1>
+    <p>I am Arunima Chatterjee from Kolkata. 
+        I'm a 4th year undergrad at Sister Nivedita University, Kolkata.
+    </p>
+    <p> My Tech stack includes Machine Learning, App development, UI/UX Design. 
+        I have a keen interest in Generative Artificial Intelligence.
+        Thank you!
+    </p>
+    <a href="first_page.html">Go to the other page</a>
+    <a href="first_page.html" title="This leads you to another page.">Go to the other page</a>
+    <!--Question 8-->
+    <a href="https://www.google.com" title="This leads you to another page.">Click here to visit another page</a>
+    <!--Question 9-->
+    <a href="first_page.html"><img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com"></a>
+</body>
